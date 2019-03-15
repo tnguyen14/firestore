@@ -1,0 +1,25 @@
+{
+  "name": "@tridnguyen/firestore",
+  "version": "1.0.0",
+  "description": "Simple wrapper around firestore node package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tnguyen14/firestore.git"
+  },
+  "keywords": [
+    "firestore"
+  ],
+  "author": "Tri Nguyen <tri@tridnguyen.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnguyen14/firestore/issues"
+  },
+  "homepage": "https://github.com/tnguyen14/firestore#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^1.1.0"
+  }
+}
