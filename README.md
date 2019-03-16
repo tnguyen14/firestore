@@ -1,5 +1,7 @@
 # @tridnguyen/firestore
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tnguyen14/firestore.svg)](https://greenkeeper.io/)
+
 > Simple wrapper around @google-cloud/firestore package
 
 ## Environment variables
