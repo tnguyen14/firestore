@@ -4,6 +4,10 @@ const firestore = new Firestore({
 	keyFilename: process.env.SERVICE_ACCOUNT_JSON
 });
 
+firestore.settings({
+	timestampsInSnapshots: true
+});
+
 module.exports = firestore;
 
 const FIRESTORE_BATCH_SIZE = 500;
